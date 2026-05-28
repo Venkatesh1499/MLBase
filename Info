@@ -11,3 +11,40 @@ Github link - https://github.com/KeithGalli/pandas
 
 Matplotlib-plot - https://youtu.be/UO98lJQ3QGI?si=Wa1vMNYheLLT9x9R
 Github link - https://youtu.be/UO98lJQ3QGI?si=t9boJYiOcqSla8tR
+
+
+ML concepts I should learn
+
+Phase 1
+1. AI vs ML vs DL
+2. Types of ML
+3. Classification vs Regression
+4. Training & Testing split
+5. Overfitting vs Underfitting
+Theory and examples till this point
+
+Phase 2
+ML Workflow - before sklearn
+
+Phase 3
+Evaluation Metrics(basics before sklearn) - Very importatn for interviews
+
+Phase 4
+1. Algorithm intuition
+2. Statistics basics
+
+sklearn outputs
+1. Actual implementation
+2. Models
+3. Training
+4. Evaluation
+
+sklearn learning order
+1. train_test_split
+2. LinearRegression
+3. LogisticRegression
+4. DecisionTree
+5. RandomForest
+6. KNN
+7. Evaluation metrics in code
+
