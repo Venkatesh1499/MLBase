@@ -48,3 +48,194 @@ sklearn learning order
 6. KNN
 7. Evaluation metrics in code
 
+Given your current skills, you are actually much closer to building an AI product than someone starting from zero.
+
+Your current stack:
+
+✅ SwiftUI → You can build the client app
+✅ Flask → You can build the backend API
+✅ Render deployment + Postman → You understand basic backend deployment/testing
+✅ Linear Regression theory → You have the ML foundation
+❌ Need to learn practical ML workflow + AI application architecture
+
+The gap is not huge.
+
+For an AI Code Review Assistant, you do not need to first become an expert in all ML algorithms. This project is mostly AI engineering, not traditional ML.
+
+What you need to learn next
+Step 1: Practical ML basics (2–3 weeks)
+
+Learn:
+
+Train/test split
+Validation
+Overfitting
+Feature engineering
+Model evaluation
+Classification basics
+
+Algorithms:
+
+Logistic Regression
+Decision Tree
+Random Forest
+XGBoost
+
+You don't need 20 algorithms.
+
+Step 2: Learn modern AI application building (4–6 weeks)
+
+This is the important part for your project.
+
+Learn:
+
+1. LLM basics
+
+Understand:
+
+What is a language model?
+Tokens
+Context window
+Temperature
+Prompting
+
+You don't need to build an LLM.
+
+2. Prompt engineering
+
+Example:
+
+Bad prompt:
+
+Review this code.
+
+
+Better:
+
+You are a senior software engineer.
+
+Review this Swift code.
+
+Find:
+1. Security issues
+2. Bugs
+3. Performance problems
+4. Code quality issues
+
+Return JSON format.
+
+3. Embeddings
+
+Understand:
+
+"Convert text/code into numbers that represent meaning."
+
+Example:
+
+These two pieces of code:
+
+loginUser()
+
+
+and
+
+authenticateUser()
+
+
+have different words but similar meaning.
+
+Embeddings capture that similarity.
+
+4. RAG (Retrieval Augmented Generation)
+
+This is probably the biggest concept for your project.
+
+Without RAG:
+
+Code → AI → Answer
+
+
+With RAG:
+
+Large Codebase
+      |
+      ↓
+Split into chunks
+      |
+      ↓
+Create embeddings
+      |
+      ↓
+Vector database
+      |
+      ↓
+Find relevant code
+      |
+      ↓
+AI generates review
+
+Your realistic roadmap
+Month 1
+
+Learn:
+
+Practical ML basics
+Logistic Regression
+Decision Trees
+Random Forest
+Model evaluation
+
+Build:
+
+Simple ML API with Flask
+
+Example:
+
+Input → Model → Prediction → JSON response
+
+Month 2
+
+Learn:
+
+LLM APIs
+Prompt engineering
+Embeddings
+Vector databases
+
+Build:
+
+Code review backend
+Month 3
+
+Combine everything:
+
+SwiftUI App
+      |
+      ↓
+Flask API
+      |
+      ↓
+Code Analyzer
+      |
+      ↓
+LLM + RAG
+      |
+      ↓
+Review Result
+
+
+Deploy it.
+
+For interviews, your story becomes very strong:
+
+"I built an AI-powered code review assistant. The iOS app allows developers to upload code or connect repositories. The backend processes the code, performs static analysis, retrieves relevant project context using embeddings, and uses an LLM to generate structured review feedback."
+
+That is a much stronger story than:
+
+"I trained a model on a dataset and got 92% accuracy."
+
+One adjustment I would make: don't spend 4–6 months only learning ML algorithms before building. Your existing SwiftUI + Flask skills are valuable. Learn the required ML/AI concepts while building the project.
+
+Your fastest path is:
+
+SwiftUI + Flask (already have) → ML fundamentals → LLM/RAG → AI product.
