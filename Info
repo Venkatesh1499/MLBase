@@ -297,3 +297,26 @@ Do not write anything outside the JSON.
 Code:
 
 <YOUR CODE HERE>
+
+
+
+You MUST return ONLY valid JSON.
+
+The JSON MUST exactly match this schema.
+
+Do NOT add or remove any fields.
+
+If there are no issues, return an empty array.
+
+Return ONLY the JSON object.
+
+Schema:
+
+{
+  "overall_score": 0,
+  "errors": [],
+  "security": [],
+  "performance": [],
+  "suggestions": [],
+  "summary": ""
+}
