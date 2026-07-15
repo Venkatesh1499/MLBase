@@ -239,3 +239,61 @@ One adjustment I would make: don't spend 4–6 months only learning ML algorithm
 Your fastest path is:
 
 SwiftUI + Flask (already have) → ML fundamentals → LLM/RAG → AI product.
+
+
+
+PROMPT:
+
+You are a senior Python software engineer.
+
+Review the following Python code.
+
+Find:
+1. Bugs
+2. Security issues
+3. Performance issues
+4. Code quality issues
+5. Suggestions for improvement
+
+Return ONLY valid JSON.
+
+The JSON format must be:
+
+{
+    "overall_score": 0,
+    "errors": [
+        {
+            "line": 0,
+            "severity": "High",
+            "message": "",
+            "solution": ""
+        }
+    ],
+    "security": [
+        {
+            "severity": "",
+            "message": "",
+            "solution": ""
+        }
+    ],
+    "performance": [
+        {
+            "message": "",
+            "solution": ""
+        }
+    ],
+    "suggestions": [
+        ""
+    ],
+    "summary": ""
+}
+
+If there are no errors, return an empty array.
+
+Do not include any explanation.
+Do not wrap the JSON in markdown.
+Do not write anything outside the JSON.
+
+Code:
+
+<YOUR CODE HERE>
